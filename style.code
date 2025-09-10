@@ -1,0 +1,95 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body style */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #004080;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 5px;
+}
+
+header p {
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+/* Navigation */
+nav {
+  background: #003366;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  transition: background 0.3s ease;
+}
+
+nav a:hover {
+  background: #0059b3;
+}
+
+/* Hero section */
+.hero {
+  background: #e6f0ff;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.hero h2 {
+  margin-bottom: 10px;
+  color: #003366;
+}
+
+/* Content sections */
+section {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+section h2 {
+  color: #004080;
+  margin-bottom: 15px;
+}
+
+/* News list */
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #004080;
+  color: white;
+  padding: 10px 0;
+  margin-top: 20px;
+}
