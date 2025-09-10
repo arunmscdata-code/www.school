@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My School Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #004080;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background: #003366;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+    }
+    nav a:hover {
+      background: #0059b3;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .hero {
+      background: #e6f0ff;
+      padding: 40px;
+      text-align: center;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+    footer {
+      text-align: center;
+      background: #004080;
+      color: white;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My School</h1>
+    <p>Learning Today, Leading Tomorrow</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Academics</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Welcome to Our School Website</h2>
+    <p>
+      Our school is dedicated to providing high-quality education and nurturing future leaders. 
+      Explore our website to learn more about our programs, activities, and achievements.
+    </p>
+  </section>
+
+  <section>
+    <h2>Latest News</h2>
+    <ul>
+      <li>🏆 Our school won the inter-school football championship!</li>
+      <li>🎓 Admission open for the 2025 academic year.</li>
+      <li>📚 Science Fair scheduled for October 15th.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My School. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
