@@ -1,0 +1,23 @@
+// Wait until the page is fully loaded
+document.addEventListener("DOMContentLoaded", () => {
+  
+  // Example 1: Show a welcome message when someone visits
+  alert("👋 Welcome to our School Website!");
+
+  // Example 2: Highlight the current navigation link
+  const navLinks = document.querySelectorAll("nav a");
+  navLinks.forEach(link => {
+    if (link.href === window.location.href) {
+      link.style.backgroundColor = "#0073e6";
+    }
+  });
+
+  // Example 3: Dynamic news section (click to show more info)
+  const newsItems = document.querySelectorAll("section ul li");
+  newsItems.forEach(item => {
+    item.addEventListener("click", () => {
+      alert("📢 More details about: " + item.textContent);
+    });
+  });
+
+});
